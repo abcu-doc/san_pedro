@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Poner el boton de escuchar en la esquina superior derecha y agrandar su tamaño-->
+    <!--Agrandar los titulos y justificar los textos-->
+    <!--Empezar a hacer el contador-->
+
+    <nav>
+        <ul class="menu-horizontal">
+            <li><a href="R_Peatonal.html" data-es="Inicio" data-en="Initiation"></a></li>
+            <li>
+                <a href="https://maps.app.goo.gl/GBDxncbgUEWoz4MDA" data-es="Visitar" data-en="Visit"></a>
+            </li>
+            <li>
+                <a href="#" data-es="Idioma" data-en="Lenguage"></a>
+                <ul class="menu-vertical">
+                    <li><button class="idioma1" onclick="cambiarIdioma('es')"></button>
+                        <span style="color: white;" data-es="Español" data-en="Spanish"></span>
+                    </li>
+                    <li><button class="idioma2" onclick="cambiarIdioma('en')"></button>
+                        <span style="color: white;" data-es="Ingles" data-en="Ingles"></span>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+
+    </div><br><br><br>
+    <div class="logo">
+        <img src="img/Logos/Logo.inah.png" alt="Imagen">
+    </div>
+
+    <h1 class="tittle" data-es="Ex Hospital San Juan de Dios" data-en="Former San Juan de Dios Hospital"></h1>
+
+    <button id="botonEscuchar" class="boton-escuchar" onclick="leerTexto('texto1')" data-es="▶ Escuchar" data="▶ Listen">
+    </button>
+
+    <div class="container">
+        <h3 id="texto1"
+            data-es="Construido en 1675 por la orden de los Juaninos, que se dedicaban a atender enfermos en sus inicios fungió como hospital. La Iglesia de “San Juan de Dios”, se construyó con la caridad de los habitantes del puerto y la donación 
+        que hacían los marinos y soldados de los buques que atracaban en el puerto. A finales del siglo XIX se transforma en el 
+        hospital ” Manuel Campos “. El edificio fue destruido en la década de los 60`s del presente siglo, construyéndose edificios 
+        públicos, lo único que se respetó fue la iglesia del hospital, un edificio sencillo sin alardes artísticos de importancia."
+            data-en="Built in 1675 by the Order of the Juaninos, who were dedicated to caring for the sick, it initially served as a hospital.
+            The Church of “San Juan de Dios ”, was built with the charity of the inhabitants of the port and the donation
+            made by sailors and soldiers from ships docking at the port.
+            At the end of the 19th century it was transformed into the hospital ” Manuel Campos “.
+            The building was destroyed in the 1960s of this century, with public buildings being built,
+            the only thing that was respected was the hospital church, a simple building without significant artistic boasts.">
+        </h3>
+
+    </div>
+
+    <div class="imagenes">
+        <img src="img/San_Juan/San_juan2.jpeg">
+        <img src="img/San_Juan/San_juan1.jpeg">
+    </div>
+
+    <br><br>
+
+</body>
+<script src="script.js"></script>
+
+</html>

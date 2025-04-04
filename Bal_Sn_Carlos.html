@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu-horizontal">
+            <li><a href="R_Peatonal.html" data-es="Inicio" data-en="Initiation"></a></li>
+            <li>
+                <a href="https://maps.app.goo.gl/uUUSp4bboPdSGV7i6" data-es="Visitar" data-en="Visit"></a>
+            </li>
+            <li>
+                <a href="#" data-es="Idioma" data-en="Lenguage"></a>
+                <ul class="menu-vertical">
+                    <li><button class="idioma1" onclick="cambiarIdioma('es')"></button>
+                        <span style="color: white;" data-es="Español" data-en="Spanish"></span>
+                    </li>
+                    <li><button class="idioma2" onclick="cambiarIdioma('en')"></button>
+                        <span style="color: white;" data-es="Ingles" data-en="English"></span>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+    <button id="botonEscuchar" class="boton-escuchar" onclick="leerTexto('texto1')" data-es="▶ Escuchar" data-en="▶ Listen">
+    </button>
+    
+    <div class="logo">
+        <img src="img/Logos/Logo.inah.png" alt="Imagen">
+    </div>
+
+    <h1 class="tittle" data-es="Baluarte de San Carlos" data-en="Bastion of San Carlos"></h1>
+
+
+
+
+    <div class="container">
+        <h3 id="texto1" data-es="El Baluarte de San Carlos, fue el primero en ser construido como parte del sistema fortificado de San Francisco de Campeche. 
+    Al igual que los otros baluartes presenta una forma pentagonal. 
+    Su entrada principal es por medio de una rampa situada del lado de la calle 8. 
+    El nombre de este baluarte fue dado en honor al rey Carlos II. 
+    Posee un sótano con dos habitaciones que fungían como cuartos de pólvora o como cárcel. 
+    En este recinto se puede observar un aljibe y un silo que funcionaba como purguero y en donde se castigaba a los prisioneros. 
+    En el siglo XIX alojó a tropas locales. Aloja al Museo de la Ciudad." data-en="The San Carlos Bastion was the first to be built as part of the fortified system of San Francisco de Campeche. 
+    Like the other bastions, it has a pentagonal shape. Its main entrance is via a ramp located on the 8th Street side. 
+    This bastion was named in honor of King Carlos II. 
+    It has a basement with two rooms that served as gunpowder rooms or as a jail. 
+    In this enclosure, you can see a cistern and a silo that served as a purge and where prisoners were punished. 
+    In the 19th century, it housed local troops. It houses the City Museum.">
+        </h3>
+    </div>
+
+    <div class="imagenes">
+        <img src="img/San_Carlos/San_Carlos2.jpeg" alt="Imagen del Baluarte San Carlos">
+        <img src="img/San_Carlos/San_Carlos3.jpeg" alt="Imagen del Baluarte San Carlos">
+    </div>
+
+    <br><br>
+
+</body>
+<script src="script.js"></script>
+
+</html>

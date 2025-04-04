@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu-horizontal">
+            <li><a href="R_Peatonal.html" data-es="Inicio" data-en="Initiation"></a></li>
+            <li>
+                <a href="https://maps.app.goo.gl/1JCEpBcRAQ3PxN619" data-es="Visitar" data-en="Visit"></a>
+            </li>
+            <li>
+                <a href="#" data-es="Idioma" data-en="Lenguage"></a>
+                <ul class="menu-vertical">
+                    <li><button class="idioma1" onclick="cambiarIdioma('es')"></button>
+                        <span style="color: white;" data-es="Español" data-en="Spanish"></span>
+                    </li>
+                    <li><button class="idioma2" onclick="cambiarIdioma('en')"></button>
+                        <span style="color: white;" data-es="Ingles" data-en="English"></span>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+
+    </div><br><br><br>
+    <div class="logo">
+        <img src="img/Logos/Logo.inah.png" alt="Imagen">
+    </div>
+
+    <h1 class="tittle" data-es="Ex Escuela Naútica" data="Former Nautical School"></h1>
+
+    <button id="botonEscuchar" class="boton-escuchar" onclick="leerTexto('texto1')" data-es="▶ Escuchar" data-en="▶ Listen">
+    </button>
+
+    <div class="container">
+        <h3 id="texto1"
+            data-es="Fue el 24 de febrero de 1822, cuando se instaló en el Puerto de Campeche, la primera Escuela Náutica Mercante. 
+    Campeche ha adquirido importancia histórica de la educación marina, 
+     por que es el sitio geográfico donde tuvo origen, el espíritu para la formación de hombres de mar.
+     Existe una placa conmemorativa, que rinde homenaje, y destaca la presencia del lugar exacto donde se estableció la Escuela Náutica."
+            data-en="It was on February 24, 1822, when the first Merchant Nautical School was established in the Port of Campeche.
+Campeche has acquired historical importance in marine education because it is the geographical location where the spirit for training seafarers originated.
+There is a commemorative plaque that pays tribute and highlights the exact location where the Nautical School was established.">
+        </h3>
+
+    </div>
+
+    <div class="imagenes">
+        <img src="img/Escuela_Nautica/Esc_Nau.gif">
+    </div>
+
+    <br><br>
+
+</body>
+<script src="script.js"></script>
+
+</html>
